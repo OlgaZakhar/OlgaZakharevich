@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+    <title>Document</title>
+    <style>      
+        div.Menu {width: 150px; display: none }
+        div.Day > div {width: 150px; background-color: rgb(71, 149, 73); border: solid rgb(1, 32, 14) 1px; border-radius: 3px; position: relative; cursor: auto; float: left;} 
+        div.Day > div:hover {background-color: aquamarine; transition-duration: 1s; transition-property: all}
+        div.Menu > div { background-color: rgb(249, 233, 115); border: solid rgb(1, 32, 14) 1px; border-radius: 3px; cursor: pointer}
+        div.Day > div:hover div.Menu { display: block; position: absolute; left: 80%; top: 90%; z-index: 1 }
+        @media all and (max-width: 930px) {div.Day > div {clear: both}}
+        
+    </style>
+</head>
+<body>
+    <div class='Day'>
+        <div class="day1">
+            Понедельник
+            <div class='Menu'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div class="day1">
+            Вторник
+            <div class='Menu'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div class="day1">
+            Среда
+            <div class='Menu'>
+                 <div>Завтрак</div>
+                 <div>Обед</div>
+                 <div>Ужин</div>
+            </div>
+        </div>
+        <div class="day1">
+            Четверг
+            <div class='Menu'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div class="day1">
+            Пятница
+            <div class='Menu'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+        <div class="day1">
+            Суббота
+            <div class='Menu'>
+                <div>Завтрак</div>
+                <div>Обед</div>
+                <div>Ужин</div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
